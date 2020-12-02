@@ -5,8 +5,8 @@ Very simple bash script to batch convert all .wav files to mpc 1000 applicable 1
 * [ffmpeg](https://ffmpeg.org/) installed
 
 ## Usage
-It is recommended to move `mpc-convert.sh` to your `/usr/local/bin` directory for easy access
-The script needs to be run in the directory containing the samples, where it will create a directory named `16bit` where all the 16bit.wav files will be stored.
+It is recommended to move `mpc-convert.sh` to your `/usr/local/bin` directory for easy access.
+The script needs to be run in the directory containing the samples, where it will create a directory named `16bit` in which all the 16bit.wav files will be stored.
 Step by step:
 * open Terminal
 * navigate to your sample directory e.g.: `cd Samples/drums/snares`
