@@ -11,4 +11,4 @@ Step by step:
 * open Terminal
 * navigate to your sample directory e.g.: `cd Samples/drums/snares`
 * run `mpc-convert.sh`
-* all converted files are now located in the `16bit` directory in `~/Samples/drums/snares`
+* all converted files are now located in `~/Samples/drums/snares/16bit`
