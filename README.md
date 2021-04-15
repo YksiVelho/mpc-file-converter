@@ -12,3 +12,12 @@ Step by step:
 * navigate to your sample directory e.g.: `cd Samples/drums/snares`
 * run `mpc-convert.sh`
 * all converted files are now located in `~/Samples/drums/snares/16bit`
+
+## Squid convert
+The script is non destructive and leaves your original audio files untouched.
+
+### Usage:
+* Run `squid-convert.sh` in your sample directory.
+
+**Caution:** The script will copy the structure of the current directory to a new directory `./squid` and convert *all* `.wav` files in *all* the sub directories to 44.1kHz 16bit left channel mono
+
